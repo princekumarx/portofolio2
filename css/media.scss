@@ -1,0 +1,699 @@
+@media (min-width: 1400px) and (max-width: 1920px) {
+  header {
+    margin-bottom: 5rem;
+    .main-menu .navbar {
+      padding: 0.5rem 15%;
+
+      .navbar-brand {
+        padding-bottom: 0.7rem;
+        margin: 0;
+        img {
+          width: 250px;
+        }
+      }
+
+      .nav-item {
+        .nav-link {
+          font: normal 500 1.2rem/2px var(--font);
+        }
+      }
+    }
+  }
+  .site-main {
+    .site-banner {
+      .site-title {
+        padding: 6% 0 0 0rem;
+        h3 {
+          &::after {
+            width: 200px;
+          }
+        }
+        h1 {
+          font-size: 1.9rem;
+        }
+        h4 {
+          font-size: 1.4rem;
+        }
+        .site-btns {
+          .primary-button {
+            padding: 1rem 3rem;
+          }
+          .secondary-button {
+            padding: 1rem 3rem;
+          }
+        }
+      }
+      .banner-img {
+        text-align: right;
+        img {
+        }
+      }
+    }
+
+    // ================= start site-about ==================
+
+    .site-about {
+      .row {
+        padding: 1rem 1rem;
+        .about-img {
+          padding: 2rem 0 0 0rem;
+          text-align: center;
+        }
+
+        .about-title {
+          h2 {
+            letter-spacing: 10px;
+          }
+          p {
+            font-size: 1.2rem;
+            color: #464343;
+          }
+          .primary-button {
+            padding: 1rem 3rem;
+          }
+          .para {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    // ================= end  site-about ==================
+
+    // ================= start brand area ==================
+    .brand-area {
+      .row {
+        .third-row {
+          margin-bottom: 1rem;
+        }
+        .experience-area {
+          margin-top: 0rem;
+          .year-area {
+            h1 {
+              font-size: 5rem;
+            }
+            h2 {
+              font-size: 2rem;
+            }
+          }
+
+          .call-area {
+            margin-top: 2rem;
+            text-align: center;
+            i {
+              margin-top: 10px;
+            }
+            .call-now {
+              a {
+                font-size: 2rem;
+              }
+              .num {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    // ================= end end brand area ==================
+
+    // ================= start service area ==================
+    .service-area {
+      padding: 0rem 5rem;
+
+      .service-title {
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          padding: 0 10rem;
+          font-size: 1.3rem;
+        }
+      }
+      .service-cards {
+        .d-flex {
+          .service-card-img {
+            padding: 1rem;
+          }
+
+          h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            padding: 1rem 0;
+          }
+          p {
+            font-size: 1rem;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+
+    // ================= end service area ==================
+    // ================= start project area ==================
+
+    .project-area {
+      padding: 0 5rem;
+      .btn {
+        font-size: 1.2rem;
+      }
+      .element-item {
+        .out-project {
+          .img {
+          }
+
+          .title {
+            h5 {
+              font-size: 1.4rem;
+            }
+            .text-secondary {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    // ================= end project area ==================
+    // ================= start testimonial area ==================
+
+    .client {
+      padding: 0 5rem;
+      .client-title {
+        padding: 0rem 3rem;
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.3rem;
+        }
+      }
+      .swiper-container {
+        width: 100%;
+        .swiper-wrapper {
+          .swiper-slide {
+            margin: 3rem 0rem;
+            .client-img {
+              width: 100%;
+              height: 100%;
+            }
+            .about-client {
+              h4 {
+                font-size: 1.5rem;
+                margin-top: 0.4rem;
+              }
+              p {
+                font-size: 1.2rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // ================= end testimonial area ==================
+    // ================= start subscribe area ==================
+
+    .subscribe {
+      margin: 0rem 10rem 10rem 10rem;
+      padding: 5rem 13rem;
+      color: white;
+
+      .subscribe-title {
+        h4 {
+          font-size: 1.8rem;
+        }
+        p {
+          font-size: 1.2rem;
+        }
+      }
+      .form-box {
+        text-align: center;
+        margin: 4rem 0rem;
+        padding: 0rem 20%;
+        input[type="email"] {
+          padding: 1.5rem;
+          color: white;
+        }
+        button {
+          font-size: 1.1rem;
+          padding: 1rem;
+        }
+      }
+    }
+
+    // ================= end subscribe area ==================
+  }
+  footer {
+    margin-bottom: 3rem;
+    .container {
+      h3 {
+        font-size: 1.8rem;
+      }
+      .icons {
+        span i {
+          font-size: 1.3rem;
+        }
+      }
+      .copy {
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  header .main-menu .navbar {
+    padding: 0.5rem 10%;
+    margin-bottom: 0rem;
+    .nav-link {
+      margin-bottom: 1rem;
+    }
+  }
+  .site-main {
+    .site-banner {
+      .site-title {
+        padding: 10% 0 0 0rem;
+        h3 {
+          &::after {
+            width: 100px;
+          }
+        }
+        h1 {
+          font-size: 1.3rem;
+        }
+        h4 {
+          font-size: 1rem;
+        }
+        .banner-img {
+          text-align: right;
+          img {
+            width: 300px;
+            height: 50%;
+          }
+        }
+      }
+    }
+
+    // ================= start site-about ==================
+
+    .site-about {
+      .row {
+        padding: 1rem 1rem;
+        .about-img {
+          padding: 2rem 0 0 0rem;
+          text-align: center;
+        }
+
+        .about-title {
+          h2 {
+            letter-spacing: 3px;
+          }
+          p {
+            font-size: 0.9rem;
+            color: #464343;
+          }
+          .primary-button {
+            padding: 0.6rem 1.8rem;
+          }
+          .para {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    // ================= end  site-about ==================
+
+    // ================= start brand area ==================
+    .brand-area {
+      .row {
+        .third-row {
+          margin-bottom: 1rem;
+        }
+        .experience-area {
+          margin-top: 3rem;
+          .year-area {
+            h1 {
+            }
+            h2 {
+            }
+          }
+
+          .call-area {
+            margin-top: 2rem;
+            text-align: center;
+            i {
+              margin-top: 10px;
+            }
+            .call-now {
+              a {
+              }
+              .num {
+              }
+            }
+          }
+        }
+      }
+    }
+    // ================= end end brand area ==================
+
+    // ================= start service area ==================
+    .service-area {
+      padding: 0rem 5rem;
+
+      .service-title {
+        h2 {
+        }
+        p {
+          padding: 0 5rem;
+        }
+      }
+      .service-cards {
+        .d-flex {
+          .service-card-img {
+            padding: 1rem;
+          }
+
+          h2 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            padding: 1rem 0;
+          }
+          p {
+            font-size: 0.8rem;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+
+    // ================= end service area ==================
+    // ================= start project area ==================
+
+    .project-area {
+      padding: 0 5rem;
+      .element-item {
+        .out-project {
+          .img {
+          }
+
+          .title {
+            h5 {
+              font-size: 1rem;
+            }
+            .text-secondary {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+
+    // ================= end project area ==================
+    // ================= start testimonial area ==================
+
+    .client {
+      padding: 0 5rem;
+      .client-title {
+        padding: 0rem 3rem;
+      }
+      .swiper-container {
+        width: 80%;
+        .swiper-wrapper {
+          .swiper-slide {
+            margin: 3rem 0rem;
+
+            .about-client {
+              h4 {
+                font-size: 1rem;
+                margin-top: 0.4rem;
+              }
+              p {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // ================= end testimonial area ==================
+    // ================= start subscribe area ==================
+
+    .subscribe {
+      padding: 2rem 5rem;
+      margin: 0rem 5rem 5rem 5rem;
+
+      .form-box {
+        margin: 4rem 0rem;
+      }
+    }
+
+    // ================= end subscribe area ==================
+  }
+}
+
+@media (max-width: 768px) {
+  .site-main {
+    .site-banner {
+      .site-title {
+        padding: 10% 0 0 0rem;
+      }
+    }
+
+    // ================= start site-about ==================
+
+    .site-about {
+      .row {
+        padding: 1rem 1rem;
+        .about-img {
+          padding: 1rem 0 0 1rem;
+        }
+        .about-title {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 5%;
+        }
+      }
+    }
+
+    // ================= end  site-about ==================
+
+    // ================= start brand area ==================
+    .brand-area {
+      padding: 0rem 5%;
+    }
+    // ======
+
+    // =========== end end brand area ==================
+
+    // ================= start service area ==================
+    .service-area {
+      padding: 0rem 5%;
+
+      .service-cards {
+        .d-flex {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+
+    // ================= end service area ==================
+    // ================= start project area ==================
+
+    .project-area {
+      padding: 0 5%;
+      .element-item {
+        .out-project {
+        }
+      }
+    }
+
+    // ================= end project area ==================
+    // ================= start testimonial area ==================
+
+    .client {
+      padding: 0 5%;
+      .client-title {
+        padding: 0rem 0%;
+      }
+    }
+
+    // ================= end testimonial area ==================
+    // ================= start subscribe area ==================
+
+    .subscribe {
+      padding: 2rem 5%;
+      margin: 0rem 5rem 5rem 5rem;
+
+      .form-box {
+        margin: 4% 5rem 0 0;
+        padding: 0rem 10%;
+      }
+    }
+
+    // ================= end subscribe area ==================
+  }
+}
+
+@media (max-width: 576px) {
+  header .main-menu .navbar {
+    padding: 0.5rem 5%;
+    width: 100%;
+  }
+  .site-main {
+    width: 100%;
+    .site-banner {
+      padding: 0% 5%;
+
+      .site-title {
+        padding: 10% 0 0 0rem;
+        margin-bottom: 10%;
+
+        h3 {
+          &::after {
+            width: 150px;
+          }
+        }
+        h1 {
+          font-size: 1.4rem;
+          margin-bottom: 0.9rem;
+        }
+        h4 {
+          font-size: 1.1rem;
+          margin-bottom: 0.9rem;
+        }
+        .banner-img {
+          text-align: left;
+        }
+      }
+    }
+
+    // ================= start site-about ==================
+
+    .site-about {
+      .row {
+        padding: 1rem 1rem;
+
+        .about-title {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 5%;
+        }
+        .about-img {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    // ================= end  site-about ==================
+
+    // ================= start brand area ==================
+    .brand-area {
+      padding: 0rem 5%;
+      .row {
+        .call-area {
+          margin-bottom: 5rem;
+        }
+      }
+    }
+    // ======
+
+    // =========== end end brand area ==================
+
+    // ================= start service area ==================
+    .project-area {
+      padding: 0 5%;
+      .project-btns {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      .element-item {
+        .out-project {
+          text-align: center;
+          .img {
+            width: 100%;
+          }
+
+          .title {
+            h5 {
+              font-size: 1rem;
+            }
+            .text-secondary {
+              font-size: 0.7rem;
+            }
+          }
+        }
+      }
+    }
+
+    // ================= end service area ==================
+    // ================= start project area ==================
+
+    // ================= end project area ==================
+    // ================= start testimonial area ==================
+
+    .client {
+      padding: 0 5%;
+      .client-title {
+        padding: 0rem 0rem;
+      }
+      .swiper-container {
+        width: 100%;
+        .swiper-wrapper {
+          .swiper-slide {
+            margin: 3rem 0rem;
+
+            .about-client {
+              h4 {
+                font-size: 1rem;
+                margin-top: 0.4rem;
+              }
+              p {
+                font-size: 0.8rem;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // ================= end testimonial area ==================
+    // ================= start subscribe area ==================
+
+    .subscribe {
+      padding: 2rem 2%;
+      margin: 2rem 1rem;
+      .subscribe-title {
+        h4 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+      }
+      .form-box {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: space-between;
+        width: 100%;
+        input[type="email"] {
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    // ================= end subscribe area ==================
+  }
+}

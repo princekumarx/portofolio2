@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="183.293" height="38" viewBox="0 0 183.293 55">
+  <g id="Group_5" data-name="Group 5" transform="translate(-337.293 -24)">
+    <g id="Group_2" data-name="Group 2" transform="translate(57 2)">
+      <g id="Group_1" data-name="Group 1" transform="translate(2 4)">
+        <text id="MAYN" transform="translate(278.293 49)" fill="#f45c43" font-size="29" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="0.05em"><tspan x="0" y="0">MAYNOO</tspan></text>
+        <text id="TH" transform="translate(412.612 49)" fill="#f45c43" font-size="29" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600" letter-spacing="0.05em"><tspan x="0" y="0">TH</tspan></text>
+      </g>
+      <g id="eye" transform="translate(451 27.404)">
+        <path id="Ellipse_2" data-name="Ellipse 2" d="M6.293-.284C9.9,1.237,12.586,2.534,12.586,6.009A6.293,6.293,0,1,1,0,6.009C0,2.534,2.686-1.8,6.293-.284Z" transform="translate(0 0.596)"/>
+        <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="3.933" cy="2.36" rx="3.933" ry="2.36" transform="translate(2.098 5.557)" fill="#fff"/>
+        <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="1.573" cy="1.573" rx="1.573" ry="1.573" transform="translate(3.671 7.13)" fill="#070707"/>
+      </g>
+    </g>
+  </g>
+</svg>
